@@ -1,0 +1,203 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+
+/* Part 1: Header */
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: #EBE3E0;
+    padding: 16px 200px;
+}
+
+.navigation{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #373737;
+}
+
+ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+}
+
+.intro{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 0;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 10px;
+}
+
+.left .title{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #373737;
+}
+
+.left .content{
+    font-size: 18px;
+    color: #373737;
+}
+
+.searchbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    padding: 30px 0;
+}
+
+.searchbar input{
+    width: 250px;
+    height: 34px;
+    padding-left: 13px;
+    padding-right: 60px;
+    border-radius: 10px;
+    border: 2px solid grey;
+    background: white;
+}
+
+.searchbar button{
+    width: 100px;
+    height: 34px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 2px;
+    background: transparent;
+    color: grey;
+    font-size: medium;
+    font-weight: bold;
+}
+
+img{
+    height: 200px;
+    width: auto;
+    border-radius: 10px;
+}
+
+/* Part 2: Information */
+.information{
+    text-align: center;
+    padding: 16px 200px;
+}
+
+.information .title{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #373737;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    padding: 32px 0;
+}
+
+.info img{
+    width: 150px;
+    height: 200px;
+    margin-bottom: 16px;
+    border: 2px solid #EDD5D1;
+}
+
+.description{
+    font-size: 16px;
+    font-weight: bold;
+    color: #373737;
+}
+
+/* Part 3: Quote */
+.quote{
+    padding: 100px 300px;
+    background-color: #EDD5D1;
+    text-align: center;
+}
+
+.quote .content{
+    font-size: 24px;
+    font-style: italic;
+    color: #373737;
+    margin-bottom: 8px;
+}
+
+.author{
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Part 4: Call to action */
+.call{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #EBE3E0;
+    width: 600px;
+    border-radius: 10px;
+    margin: 100px 200px;
+    padding: 32px;    
+}
+
+.left .title{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card button{
+    width: 100px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 2px;
+    color: #373737;
+    font-size: medium;
+    font-weight: bold;
+}
+
+/* Part 5: Footer */
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eee;
+  }
+
